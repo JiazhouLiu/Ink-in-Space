@@ -1,0 +1,10 @@
+[package]
+name = "ink_in_space"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+minifb = "0.28.0"
+image = "0.25.10"
+bytemuck = { version = "1.25.0", features = ["derive"] }
+nalgebra = { version = "0.34", features = ["bytemuck"] }
